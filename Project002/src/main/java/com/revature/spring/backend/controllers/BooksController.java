@@ -27,6 +27,8 @@ public class BooksController {
 	
 	@PostMapping("/inventory")
 	public void addBook(@RequestBody Books b) {
+		
+		//test save
 		itemRepo.save(b);
 		
 	}

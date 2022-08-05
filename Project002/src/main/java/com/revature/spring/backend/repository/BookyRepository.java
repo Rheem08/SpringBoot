@@ -12,8 +12,10 @@ public interface BookyRepository extends JpaRepository<Booky, Integer>{
 	
 	//@Query("SELECT username, p_word FROM Booky b WHERE b.id=14")
 	//public Optional<Booky> findByBId();
-	@Query(value = "SELECT * FROM Booky b WHERE b.username = ?1", nativeQuery = true)
-	  Booky findByEmailAddress(String username);
+	@Query(value = "SELECT * FROM Booky b WHERE b.username = ?1 , b.p_word =?2", nativeQuery = true)
+	  Booky findByUsernameAndP_word(String username, String P_word);
+	
+	//Booky findByUsernameAndP_word(String username, String P_word);
 	
 	
 	

@@ -4,6 +4,8 @@ package com.revature.spring.backend.controllers;
 import java.util.List;
 import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -20,12 +22,15 @@ import com.revature.spring.backend.repository.BookyRepository;
 @RestController
 @CrossOrigin
 public class BookyController {
+	private static final Logger logger = LoggerFactory.getLogger(BookyController.class);
 	
 	@Autowired
 	private BookyRepository bRepo; //injection of repository object to use its methods
 	
 	@PostMapping("/booky") //where to send form when creating new object
 	public void addBooky(@RequestBody Booky b) { //use of postman
+		logger.info(b.getUsername());
+		logger.info(b.getEmail());
 		bRepo.save(b); //save object of booky into database/repository
 	}
 	

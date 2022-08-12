@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.revature.spring.backend.model.Books;
-import com.revature.spring.backend.model.Booky;
+
 import com.revature.spring.backend.repository.BooksRepository;
 
 @RestController

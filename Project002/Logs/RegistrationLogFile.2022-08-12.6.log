@@ -1,0 +1,100 @@
+[2022-08-12 07:49:47] - HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-12 07:49:47] - HikariPool-2 - Fill pool skipped, pool is at sufficient level.
+[2022-08-12 07:50:17] - HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-12 07:50:17] - HikariPool-2 - Fill pool skipped, pool is at sufficient level.
+[2022-08-12 07:50:47] - HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-12 07:50:47] - HikariPool-2 - Fill pool skipped, pool is at sufficient level.
+[2022-08-12 07:51:17] - HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-12 07:51:17] - HikariPool-2 - Fill pool skipped, pool is at sufficient level.
+[2022-08-12 07:51:47] - HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-12 07:51:47] - HikariPool-2 - Fill pool skipped, pool is at sufficient level.
+[2022-08-12 07:52:16] - Application restart required due to the following changes: [C:\BootCamp\SpringBack\Project002\target\classes [C:\BootCamp\SpringBack\Project002\target\classes\LogBack.xml (MODIFY)]]
+[2022-08-12 07:52:16] - Restarting application
+[2022-08-12 07:52:16] - Stopping application
+[2022-08-12 07:52:16] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2022-08-12 07:52:16] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@428cc9e8, started on Fri Aug 12 07:49:16 EDT 2022
+[2022-08-12 07:52:16] - Stopping beans in phase 2147483647
+[2022-08-12 07:52:16] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2022-08-12 07:52:16] - Stopping beans in phase 2147483646
+[2022-08-12 07:52:16] - Bean 'webServerStartStop' completed its stop procedure
+[2022-08-12 07:52:16] - Unregistering JMX-exposed beans on shutdown
+[2022-08-12 07:52:16] - Unregistering JMX-exposed beans
+[2022-08-12 07:52:16] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-12 07:52:16] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-12 07:52:16] - HHH000031: Closing
+[2022-08-12 07:52:16] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@7fac399a] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@4c5f94a5]
+[2022-08-12 07:52:16] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2022-08-12 07:52:16] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2022-08-12 07:52:16] - HikariPool-2 - Shutdown initiated...
+[2022-08-12 07:52:16] - HikariPool-2 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-12 07:52:16] - HikariPool-2 - Closing connection org.postgresql.jdbc.PgConnection@75f8647: (connection evicted)
+[2022-08-12 07:52:16] - HikariPool-2 - Closing connection org.postgresql.jdbc.PgConnection@2f962639: (connection evicted)
+[2022-08-12 07:52:16] - HikariPool-2 - Closing connection org.postgresql.jdbc.PgConnection@2151cdbb: (connection evicted)
+[2022-08-12 07:52:16] - HikariPool-2 - Closing connection org.postgresql.jdbc.PgConnection@5146a42e: (connection evicted)
+[2022-08-12 07:52:16] - HikariPool-2 - Closing connection org.postgresql.jdbc.PgConnection@5256bdcf: (connection evicted)
+[2022-08-12 07:52:16] - HikariPool-2 - Closing connection org.postgresql.jdbc.PgConnection@5c69b104: (connection evicted)
+[2022-08-12 07:52:16] - HikariPool-2 - Closing connection org.postgresql.jdbc.PgConnection@45c1e810: (connection evicted)
+[2022-08-12 07:52:16] - HikariPool-2 - Closing connection org.postgresql.jdbc.PgConnection@29db508: (connection evicted)
+[2022-08-12 07:52:16] - HikariPool-2 - Closing connection org.postgresql.jdbc.PgConnection@7b253c8f: (connection evicted)
+[2022-08-12 07:52:16] - HikariPool-2 - Closing connection org.postgresql.jdbc.PgConnection@6a55437e: (connection evicted)
+[2022-08-12 07:52:16] - HikariPool-2 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2022-08-12 07:52:16] - HikariPool-2 - Shutdown completed.
+[2022-08-12 07:52:16] - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4e998509
+[2022-08-12 07:52:16] - Starting application com.revature.spring.backend.Project002Application with URLs [file:/C:/BootCamp/SpringBack/Project002/target/classes/]
+[2022-08-12 07:52:16] - Starting Project002Application using Java 17.0.3 on Raheen with PID 11464 (C:\BootCamp\SpringBack\Project002\target\classes started by rahee in C:\BootCamp\SpringBack\Project002)
+[2022-08-12 07:52:16] - No active profile set, falling back to 1 default profile: "default"
+[2022-08-12 07:52:16] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-08-12 07:52:16] - Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+[2022-08-12 07:52:16] - Tomcat initialized with port(s): 2022 (http)
+[2022-08-12 07:52:16] - Initializing ProtocolHandler ["http-nio-2022"]
+[2022-08-12 07:52:16] - Starting service [Tomcat]
+[2022-08-12 07:52:16] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2022-08-12 07:52:16] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2022-08-12 07:52:16] - Initializing Spring embedded WebApplicationContext
+[2022-08-12 07:52:16] - Root WebApplicationContext: initialization completed in 343 ms
+[2022-08-12 07:52:16] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-08-12 07:52:16] - HikariPool-3 - Starting...
+[2022-08-12 07:52:17] - HikariPool-3 - Start completed.
+[2022-08-12 07:52:17] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-08-12 07:52:17] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-08-12 07:52:17] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-12 07:52:17] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-08-12 07:52:18] - LiveReload server is running on port 35729
+[2022-08-12 07:52:18] - Starting ProtocolHandler ["http-nio-2022"]
+[2022-08-12 07:52:18] - Tomcat started on port(s): 2022 (http) with context path ''
+[2022-08-12 07:52:18] - Started Project002Application in 1.753 seconds (JVM running for 350.161)
+[2022-08-12 07:52:18] - Condition evaluation unchanged
+[2022-08-12 07:53:17] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-12 07:53:17] - HikariPool-3 - Shutdown initiated...
+[2022-08-12 07:53:17] - HikariPool-3 - Shutdown completed.
+[2022-08-12 07:55:51] - Starting Project002Application using Java 17.0.3 on Raheen with PID 11464 (C:\BootCamp\SpringBack\Project002\target\classes started by rahee in C:\BootCamp\SpringBack\Project002)
+[2022-08-12 07:55:51] - Running with Spring Boot v2.7.2, Spring v5.3.22
+[2022-08-12 07:55:51] - No active profile set, falling back to 1 default profile: "default"
+[2022-08-12 07:55:51] - Loading source class com.revature.spring.backend.Project002Application
+[2022-08-12 07:55:51] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8892f85
+[2022-08-12 07:55:51] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-08-12 07:55:51] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2022-08-12 07:55:51] - Identified candidate component class: file [C:\BootCamp\SpringBack\Project002\target\classes\com\revature\spring\backend\controllers\BooksController.class]
+[2022-08-12 07:55:51] - Identified candidate component class: file [C:\BootCamp\SpringBack\Project002\target\classes\com\revature\spring\backend\controllers\BookyController.class]
+[2022-08-12 07:55:52] - Found key 'D_URL' in PropertySource 'systemEnvironment' with value of type String
+[2022-08-12 07:55:52] - Found key 'D_NAME' in PropertySource 'systemEnvironment' with value of type String
+[2022-08-12 07:55:52] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2022-08-12 07:55:52] - @EnableAutoConfiguration was declared on a class in the package 'com.revature.spring.backend'. Automatic @Repository and @Entity scanning is enabled.
+[2022-08-12 07:55:52] - Scanning for JPA repositories in packages com.revature.spring.backend.
+[2022-08-12 07:55:52] - Identified candidate component class: file [C:\BootCamp\SpringBack\Project002\target\classes\com\revature\spring\backend\repository\BooksRepository.class]
+[2022-08-12 07:55:52] - Identified candidate component class: file [C:\BootCamp\SpringBack\Project002\target\classes\com\revature\spring\backend\repository\BookyRepository.class]
+[2022-08-12 07:55:52] - Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DatabaseShutdownExecutorEntityManagerFactoryDependsOnPostProcessor'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2022-08-12 07:55:52] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'

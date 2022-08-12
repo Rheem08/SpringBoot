@@ -1,0 +1,136 @@
+[2022-08-12 07:49:16] - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@2d4681db] into BootstrapContext; was [null]
+[2022-08-12 07:49:16] - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@49070e8] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@17889b0d]
+[2022-08-12 07:49:16] - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@49cb4807]
+[2022-08-12 07:49:16] - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@49cb4807]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2022-08-12 07:49:16] - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2022-08-12 07:49:16] - HikariPool-2 - configuration:
+[2022-08-12 07:49:16] - allowPoolSuspension................................false
+[2022-08-12 07:49:16] - autoCommit................................true
+[2022-08-12 07:49:16] - catalog................................none
+[2022-08-12 07:49:16] - connectionInitSql................................none
+[2022-08-12 07:49:16] - connectionTestQuery................................none
+[2022-08-12 07:49:16] - connectionTimeout................................30000
+[2022-08-12 07:49:16] - dataSource................................none
+[2022-08-12 07:49:16] - dataSourceClassName................................none
+[2022-08-12 07:49:16] - dataSourceJNDI................................none
+[2022-08-12 07:49:16] - dataSourceProperties................................{password=<masked>}
+[2022-08-12 07:49:16] - driverClassName................................"org.postgresql.Driver"
+[2022-08-12 07:49:16] - exceptionOverrideClassName................................none
+[2022-08-12 07:49:16] - healthCheckProperties................................{}
+[2022-08-12 07:49:16] - healthCheckRegistry................................none
+[2022-08-12 07:49:16] - idleTimeout................................600000
+[2022-08-12 07:49:16] - initializationFailTimeout................................1
+[2022-08-12 07:49:16] - isolateInternalQueries................................false
+[2022-08-12 07:49:16] - jdbcUrl................................jdbc:postgresql://bookstore.cemk2svmngo7.us-east-1.rds.amazonaws.com/bookstore
+[2022-08-12 07:49:16] - keepaliveTime................................0
+[2022-08-12 07:49:16] - leakDetectionThreshold................................0
+[2022-08-12 07:49:16] - maxLifetime................................1800000
+[2022-08-12 07:49:16] - maximumPoolSize................................10
+[2022-08-12 07:49:16] - metricRegistry................................none
+[2022-08-12 07:49:16] - metricsTrackerFactory................................none
+[2022-08-12 07:49:16] - minimumIdle................................10
+[2022-08-12 07:49:16] - password................................<masked>
+[2022-08-12 07:49:16] - poolName................................"HikariPool-2"
+[2022-08-12 07:49:16] - readOnly................................false
+[2022-08-12 07:49:16] - registerMbeans................................false
+[2022-08-12 07:49:16] - scheduledExecutor................................none
+[2022-08-12 07:49:16] - schema................................none
+[2022-08-12 07:49:16] - threadFactory................................internal
+[2022-08-12 07:49:16] - transactionIsolation................................default
+[2022-08-12 07:49:16] - username................................"bookowner"
+[2022-08-12 07:49:16] - validationTimeout................................5000
+[2022-08-12 07:49:16] - HikariPool-2 - Starting...
+[2022-08-12 07:49:17] - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@75f8647
+[2022-08-12 07:49:17] - HikariPool-2 - Start completed.
+[2022-08-12 07:49:17] - Database ->
+       name : PostgreSQL
+    version : 13.4
+      major : 13
+      minor : 4
+[2022-08-12 07:49:17] - Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.3.6
+      major : 42
+      minor : 3
+[2022-08-12 07:49:17] - JDBC version : 4.2
+[2022-08-12 07:49:17] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2022-08-12 07:49:17] - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+[2022-08-12 07:49:17] - HikariPool-2 - Pool stats (total=1, active=1, idle=0, waiting=0)
+[2022-08-12 07:49:17] - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@33a85f20
+[2022-08-12 07:49:17] - Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@33a85f20
+[2022-08-12 07:49:17] - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@56f24632
+[2022-08-12 07:49:17] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2dccd9dc] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@3809d0f6]
+[2022-08-12 07:49:17] - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[2022-08-12 07:49:17] - Binding entity from annotated class: com.revature.spring.backend.model.Books
+[2022-08-12 07:49:17] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2022-08-12 07:49:17] - Import with entity name Books
+[2022-08-12 07:49:17] - Bind entity com.revature.spring.backend.model.Books on table books
+[2022-08-12 07:49:17] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(books), mappingColumn=item_id, insertable=true, updatable=true, unique=false}
+[2022-08-12 07:49:17] - Not known whether passed class name [com.revature.spring.backend.model.Books] is safe
+[2022-08-12 07:49:17] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.spring.backend.model.Books
+[2022-08-12 07:49:17] - MetadataSourceProcessor property itemId with lazy=false
+[2022-08-12 07:49:17] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Books:itemId]
+[2022-08-12 07:49:17] - building SimpleValue for itemId
+[2022-08-12 07:49:17] - Building property itemId
+[2022-08-12 07:49:17] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(item_id)]), itemId, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+[2022-08-12 07:49:17] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(books), mappingColumn=author, insertable=true, updatable=true, unique=false}
+[2022-08-12 07:49:17] - MetadataSourceProcessor property author with lazy=false
+[2022-08-12 07:49:17] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Books:author]
+[2022-08-12 07:49:17] - building SimpleValue for author
+[2022-08-12 07:49:17] - Building property author
+[2022-08-12 07:49:17] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(books), mappingColumn=category, insertable=true, updatable=true, unique=false}
+[2022-08-12 07:49:17] - MetadataSourceProcessor property category with lazy=false
+[2022-08-12 07:49:17] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Books:category]
+[2022-08-12 07:49:17] - building SimpleValue for category
+[2022-08-12 07:49:17] - Building property category
+[2022-08-12 07:49:17] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(books), mappingColumn=cost, insertable=true, updatable=true, unique=false}
+[2022-08-12 07:49:17] - MetadataSourceProcessor property cost with lazy=false
+[2022-08-12 07:49:17] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Books:cost]
+[2022-08-12 07:49:17] - building SimpleValue for cost
+[2022-08-12 07:49:17] - Building property cost
+[2022-08-12 07:49:17] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(books), mappingColumn=stock, insertable=true, updatable=true, unique=false}
+[2022-08-12 07:49:17] - MetadataSourceProcessor property stock with lazy=false
+[2022-08-12 07:49:17] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Books:stock]
+[2022-08-12 07:49:17] - building SimpleValue for stock
+[2022-08-12 07:49:17] - Building property stock
+[2022-08-12 07:49:17] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(books), mappingColumn=title, insertable=true, updatable=true, unique=false}
+[2022-08-12 07:49:17] - MetadataSourceProcessor property title with lazy=false
+[2022-08-12 07:49:17] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Books:title]
+[2022-08-12 07:49:17] - building SimpleValue for title
+[2022-08-12 07:49:17] - Building property title
+[2022-08-12 07:49:17] - Binding entity from annotated class: com.revature.spring.backend.model.Booky
+[2022-08-12 07:49:17] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2022-08-12 07:49:17] - Import with entity name Booky
+[2022-08-12 07:49:17] - Bind entity com.revature.spring.backend.model.Booky on table booky
+[2022-08-12 07:49:17] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(booky), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[2022-08-12 07:49:17] - Not known whether passed class name [com.revature.spring.backend.model.Booky] is safe
+[2022-08-12 07:49:17] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.spring.backend.model.Booky
+[2022-08-12 07:49:17] - MetadataSourceProcessor property id with lazy=false
+[2022-08-12 07:49:17] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Booky:id]
+[2022-08-12 07:49:17] - building SimpleValue for id
+[2022-08-12 07:49:17] - Building property id
+[2022-08-12 07:49:17] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+[2022-08-12 07:49:17] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(booky), mappingColumn=email, insertable=true, updatable=true, unique=false}
+[2022-08-12 07:49:17] - MetadataSourceProcessor property email with lazy=false
+[2022-08-12 07:49:17] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Booky:email]
+[2022-08-12 07:49:17] - building SimpleValue for email
+[2022-08-12 07:49:17] - Building property email
+[2022-08-12 07:49:17] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(booky), mappingColumn=f_name, insertable=true, updatable=true, unique=false}
+[2022-08-12 07:49:17] - MetadataSourceProcessor property f_name with lazy=false
+[2022-08-12 07:49:17] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Booky:f_name]
+[2022-08-12 07:49:17] - building SimpleValue for f_name
+[2022-08-12 07:49:17] - Building property f_name
+[2022-08-12 07:49:17] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(booky), mappingColumn=l_name, insertable=true, updatable=true, unique=false}

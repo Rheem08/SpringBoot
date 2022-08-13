@@ -1,0 +1,138 @@
+[2022-08-13 11:27:20] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Booky:email]
+[2022-08-13 11:27:20] - building SimpleValue for email
+[2022-08-13 11:27:20] - Building property email
+[2022-08-13 11:27:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(booky), mappingColumn=f_name, insertable=true, updatable=true, unique=false}
+[2022-08-13 11:27:20] - MetadataSourceProcessor property f_name with lazy=false
+[2022-08-13 11:27:20] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Booky:f_name]
+[2022-08-13 11:27:20] - building SimpleValue for f_name
+[2022-08-13 11:27:20] - Building property f_name
+[2022-08-13 11:27:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(booky), mappingColumn=l_name, insertable=true, updatable=true, unique=false}
+[2022-08-13 11:27:20] - MetadataSourceProcessor property l_name with lazy=false
+[2022-08-13 11:27:20] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Booky:l_name]
+[2022-08-13 11:27:20] - building SimpleValue for l_name
+[2022-08-13 11:27:20] - Building property l_name
+[2022-08-13 11:27:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(booky), mappingColumn=p_word, insertable=true, updatable=true, unique=false}
+[2022-08-13 11:27:20] - MetadataSourceProcessor property p_word with lazy=false
+[2022-08-13 11:27:20] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Booky:p_word]
+[2022-08-13 11:27:20] - building SimpleValue for p_word
+[2022-08-13 11:27:20] - Building property p_word
+[2022-08-13 11:27:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(booky), mappingColumn=username, insertable=true, updatable=true, unique=false}
+[2022-08-13 11:27:20] - MetadataSourceProcessor property username with lazy=false
+[2022-08-13 11:27:20] - Attempting to locate auto-apply AttributeConverter for property [com.revature.spring.backend.model.Booky:username]
+[2022-08-13 11:27:20] - building SimpleValue for username
+[2022-08-13 11:27:20] - Building property username
+[2022-08-13 11:27:20] - Starting fillSimpleValue for itemId
+[2022-08-13 11:27:20] - Starting fillSimpleValue for author
+[2022-08-13 11:27:20] - Starting fillSimpleValue for category
+[2022-08-13 11:27:20] - Starting fillSimpleValue for cost
+[2022-08-13 11:27:20] - Starting fillSimpleValue for stock
+[2022-08-13 11:27:20] - Starting fillSimpleValue for title
+[2022-08-13 11:27:20] - Starting fillSimpleValue for id
+[2022-08-13 11:27:20] - Starting fillSimpleValue for email
+[2022-08-13 11:27:20] - Starting fillSimpleValue for f_name
+[2022-08-13 11:27:20] - Starting fillSimpleValue for l_name
+[2022-08-13 11:27:20] - Starting fillSimpleValue for p_word
+[2022-08-13 11:27:20] - Starting fillSimpleValue for username
+[2022-08-13 11:27:20] - Forcing column [item_id] to be non-null as it is part of the primary key for table [books]
+[2022-08-13 11:27:20] - Forcing column [id] to be non-null as it is part of the primary key for table [booky]
+[2022-08-13 11:27:20] - Building session factory
+[2022-08-13 11:27:20] - SessionFactory name : null
+[2022-08-13 11:27:20] - Automatic flush during beforeCompletion(): enabled
+[2022-08-13 11:27:20] - Automatic session close at end of transaction: disabled
+[2022-08-13 11:27:20] - Statistics: disabled
+[2022-08-13 11:27:20] - Deleted entity synthetic identifier rollback: disabled
+[2022-08-13 11:27:20] - Default entity-mode: pojo
+[2022-08-13 11:27:20] - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2022-08-13 11:27:20] - Allow initialization of lazy state outside session : disabled
+[2022-08-13 11:27:20] - Using BatchFetchStyle : LEGACY
+[2022-08-13 11:27:20] - Default batch fetch size: -1
+[2022-08-13 11:27:20] - Maximum outer join fetch depth: null
+[2022-08-13 11:27:20] - Default null ordering: NONE
+[2022-08-13 11:27:20] - Order SQL updates by primary key: disabled
+[2022-08-13 11:27:20] - Order SQL inserts for batching: disabled
+[2022-08-13 11:27:20] - multi-tenancy strategy : NONE
+[2022-08-13 11:27:20] - JTA Track by Thread: enabled
+[2022-08-13 11:27:20] - Query language substitutions: {}
+[2022-08-13 11:27:20] - Named query checking : enabled
+[2022-08-13 11:27:20] - Second-level cache: disabled
+[2022-08-13 11:27:20] - Second-level query cache: disabled
+[2022-08-13 11:27:20] - Second-level query cache factory: null
+[2022-08-13 11:27:20] - Second-level cache region prefix: null
+[2022-08-13 11:27:20] - Optimize second-level cache for minimal puts: disabled
+[2022-08-13 11:27:20] - Structured second-level cache entries: disabled
+[2022-08-13 11:27:20] - Second-level cache direct-reference entries: disabled
+[2022-08-13 11:27:20] - Automatic eviction of collection cache: disabled
+[2022-08-13 11:27:20] - JDBC batch size: 15
+[2022-08-13 11:27:20] - JDBC batch updates for versioned data: enabled
+[2022-08-13 11:27:20] - Scrollable result sets: enabled
+[2022-08-13 11:27:20] - Wrap result sets: disabled
+[2022-08-13 11:27:20] - JDBC3 getGeneratedKeys(): enabled
+[2022-08-13 11:27:20] - JDBC result set fetch size: null
+[2022-08-13 11:27:20] - Connection release mode: ON_CLOSE
+[2022-08-13 11:27:20] - Generate SQL with comments: disabled
+[2022-08-13 11:27:20] - JPA compliance - query : disabled
+[2022-08-13 11:27:20] - JPA compliance - closed-handling : disabled
+[2022-08-13 11:27:20] - JPA compliance - lists : disabled
+[2022-08-13 11:27:20] - JPA compliance - transactions : disabled
+[2022-08-13 11:27:20] - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2022-08-13 11:27:20] - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2022-08-13 11:27:20] - Session factory constructed with filter configurations : {}
+[2022-08-13 11:27:20] - Instantiating session factory with properties: {hibernate.id.new_generator_mappings=true, java.specification.version=17, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@3afdb944, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=C:\BootCamp\SpringBack\Project002\target\classes;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.7.2\spring-boot-starter-data-jpa-2.7.2.jar;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.7.2\spring-boot-starter-aop-2.7.2.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-aop\5.3.22\spring-aop-5.3.22.jar;C:\Users\rahee\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.7.2\spring-boot-starter-jdbc-2.7.2.jar;C:\Users\rahee\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-jdbc\5.3.22\spring-jdbc-5.3.22.jar;C:\Users\rahee\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\rahee\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\rahee\.m2\repository\org\hibernate\hibernate-core\5.6.10.Final\hibernate-core-5.6.10.Final.jar;C:\Users\rahee\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\rahee\.m2\repository\net\bytebuddy\byte-buddy\1.12.12\byte-buddy-1.12.12.jar;C:\Users\rahee\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\rahee\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\rahee\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\rahee\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\rahee\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.6\jaxb-runtime-2.3.6.jar;C:\Users\rahee\.m2\repository\org\glassfish\jaxb\txw2\2.3.6\txw2-2.3.6.jar;C:\Users\rahee\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\rahee\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\rahee\.m2\repository\org\springframework\data\spring-data-jpa\2.7.2\spring-data-jpa-2.7.2.jar;C:\Users\rahee\.m2\repository\org\springframework\data\spring-data-commons\2.7.2\spring-data-commons-2.7.2.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-orm\5.3.22\spring-orm-5.3.22.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-context\5.3.22\spring-context-5.3.22.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-tx\5.3.22\spring-tx-5.3.22.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-beans\5.3.22\spring-beans-5.3.22.jar;C:\Users\rahee\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-aspects\5.3.22\spring-aspects-5.3.22.jar;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.7.2\spring-boot-starter-web-2.7.2.jar;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot-starter\2.7.2\spring-boot-starter-2.7.2.jar;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.7.2\spring-boot-starter-logging-2.7.2.jar;C:\Users\rahee\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\rahee\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\rahee\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\rahee\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\rahee\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\rahee\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\rahee\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.7.2\spring-boot-starter-json-2.7.2.jar;C:\Users\rahee\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\rahee\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\rahee\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\rahee\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.3\jackson-datatype-jdk8-2.13.3.jar;C:\Users\rahee\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.3\jackson-datatype-jsr310-2.13.3.jar;C:\Users\rahee\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.3\jackson-module-parameter-names-2.13.3.jar;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.7.2\spring-boot-starter-tomcat-2.7.2.jar;C:\Users\rahee\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.65\tomcat-embed-websocket-9.0.65.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-web\5.3.22\spring-web-5.3.22.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-webmvc\5.3.22\spring-webmvc-5.3.22.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-expression\5.3.22\spring-expression-5.3.22.jar;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot-devtools\2.7.2\spring-boot-devtools-2.7.2.jar;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot\2.7.2\spring-boot-2.7.2.jar;C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.7.2\spring-boot-autoconfigure-2.7.2.jar;C:\Users\rahee\.m2\repository\org\postgresql\postgresql\42.3.6\postgresql-42.3.6.jar;C:\Users\rahee\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\rahee\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\9.0.65\tomcat-embed-jasper-9.0.65.jar;C:\Users\rahee\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.65\tomcat-embed-core-9.0.65.jar;C:\Users\rahee\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.65\tomcat-annotations-api-9.0.65.jar;C:\Users\rahee\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.65\tomcat-embed-el-9.0.65.jar;C:\Users\rahee\.m2\repository\org\eclipse\jdt\ecj\3.18.0\ecj-3.18.0.jar;C:\Users\rahee\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\rahee\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-core\5.3.22\spring-core-5.3.22.jar;C:\Users\rahee\.m2\repository\org\springframework\spring-jcl\5.3.22\spring-jcl-5.3.22.jar, com.sun.management.jmxremote.authenticate=false, java.vm.vendor=Eclipse Adoptium, sun.arch.data.model=64, user.variant=, java.vendor.url=https://adoptium.net/, catalina.useNaming=false, user.timezone=America/New_York, jakarta.persistence.sharedCache.mode=UNSPECIFIED, java.vm.specification.version=17, os.name=Windows 11, javax.persistence.validation.mode=AUTO, jakarta.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\sts-4.15.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\jre\bin, com.sun.management.jmxremote.ssl=false, sun.java.command=com.revature.spring.backend.Project002Application --spring.output.ansi.enabled=always, spring.application.admin.enabled=true, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@1d4eb51f, com.sun.management.jmxremote=, javax.persistence.sharedCache.mode=UNSPECIFIED, jdk.debug=release, sun.cpu.endian=little, spring.boot.project.name=Project002, user.home=C:\Users\rahee, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2022-04-19, java.home=C:\sts-4.15.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\jre, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, hibernate.persistenceUnitName=default, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, FILE_LOG_CHARSET=UTF-8, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.headless=true, jakarta.persistence.validation.mode=AUTO, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.3+7, user.name=rahee, spring.jmx.enabled=true, path.separator=;, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=Temurin-17.0.3+7, java.vendor.url.bug=https://github.com/adoptium/adoptium-support/issues, java.io.tmpdir=C:\Users\rahee\AppData\Local\Temp\, catalina.home=C:\Users\rahee\AppData\Local\Temp\tomcat.2022.14193896055973158578, com.sun.management.jmxremote.port=65507, java.version=17.0.3, hibernate.physical_naming_strategy=org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy, user.dir=C:\BootCamp\SpringBack\Project002, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=10008, sun.os.patch.level=, CONSOLE_LOG_CHARSET=UTF-8, catalina.base=C:\Users\rahee\AppData\Local\Temp\tomcat.2022.14193896055973158578, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@59a6b8af, native.encoding=Cp1252, java.library.path=C:\sts-4.15.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/sts-4.15.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/sts-4.15.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.8.6\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\rahee\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_333\bin;;C:\Users\rahee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rahee\AppData\Roaming\npm;C:\sts-4.15.1.RELEASE;;., java.vendor=Eclipse Adoptium, java.vm.info=mixed mode, emulated-client, java.vm.version=17.0.3+7, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.randomIDs=true, java.rmi.server.hostname=localhost, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=HikariDataSource (HikariPool-1), java.class.version=61.0}
+[2022-08-13 11:27:20] - Skipping JACC integration as it was not enabled
+[2022-08-13 11:27:20] - Instantiated session factory
+[2022-08-13 11:27:20] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@349c2c0e] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@3c96d47c]
+[2022-08-13 11:27:20] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ea94081
+[2022-08-13 11:27:20] - Not known whether passed class name [com.revature.spring.backend.model.Booky] is safe
+[2022-08-13 11:27:20] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.spring.backend.model.Booky
+[2022-08-13 11:27:20] - Not known whether passed class name [com.revature.spring.backend.model.Books] is safe
+[2022-08-13 11:27:20] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.spring.backend.model.Books
+[2022-08-13 11:27:21] - Static SQL for entity: com.revature.spring.backend.model.Booky
+[2022-08-13 11:27:21] -  Version select: select id from booky where id =?
+[2022-08-13 11:27:21] -  Snapshot select: select booky_.id, booky_.email as email2_1_, booky_.f_name as f_name3_1_, booky_.l_name as l_name4_1_, booky_.p_word as p_word5_1_, booky_.username as username6_1_ from booky booky_ where booky_.id=?
+[2022-08-13 11:27:21] -  Insert 0: insert into booky (email, f_name, l_name, p_word, username, id) values (?, ?, ?, ?, ?, ?)
+[2022-08-13 11:27:21] -  Update 0: update booky set email=?, f_name=?, l_name=?, p_word=?, username=? where id=?
+[2022-08-13 11:27:21] -  Delete 0: delete from booky where id=?
+[2022-08-13 11:27:21] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@88772a7]
+[2022-08-13 11:27:21] - Visiting attribute path : email
+[2022-08-13 11:27:21] - Visiting attribute path : f_name
+[2022-08-13 11:27:21] - Visiting attribute path : l_name
+[2022-08-13 11:27:21] - Visiting attribute path : p_word
+[2022-08-13 11:27:21] - Visiting attribute path : username
+[2022-08-13 11:27:21] - Building LoadPlan...
+[2022-08-13 11:27:21] - processing queryspace <gen:0>
+[2022-08-13 11:27:21] - LoadPlan(entity=com.revature.spring.backend.model.Booky)
+    - Returns
+       - EntityReturnImpl(entity=com.revature.spring.backend.model.Booky, querySpaceUid=<gen:0>, path=com.revature.spring.backend.model.Booky)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.revature.spring.backend.model.Booky)
+          - SQL table alias mapping - booky0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+[2022-08-13 11:27:21] - Static select for entity com.revature.spring.backend.model.Booky [NONE]: select booky0_.id as id1_1_0_, booky0_.email as email2_1_0_, booky0_.f_name as f_name3_1_0_, booky0_.l_name as l_name4_1_0_, booky0_.p_word as p_word5_1_0_, booky0_.username as username6_1_0_ from booky booky0_ where booky0_.id=?
+[2022-08-13 11:27:21] - Static SQL for entity: com.revature.spring.backend.model.Books
+[2022-08-13 11:27:21] -  Version select: select item_id from books where item_id =?
+[2022-08-13 11:27:21] -  Snapshot select: select books_.item_id, books_.author as author2_0_, books_.category as category3_0_, books_.cost as cost4_0_, books_.stock as stock5_0_, books_.title as title6_0_ from books books_ where books_.item_id=?
+[2022-08-13 11:27:21] -  Insert 0: insert into books (author, category, cost, stock, title, item_id) values (?, ?, ?, ?, ?, ?)
+[2022-08-13 11:27:21] -  Update 0: update books set author=?, category=?, cost=?, stock=?, title=? where item_id=?
+[2022-08-13 11:27:21] -  Delete 0: delete from books where item_id=?
+[2022-08-13 11:27:21] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f9d1586]
+[2022-08-13 11:27:21] - Visiting attribute path : author
+[2022-08-13 11:27:21] - Visiting attribute path : category
+[2022-08-13 11:27:21] - Visiting attribute path : cost
+[2022-08-13 11:27:21] - Visiting attribute path : stock
+[2022-08-13 11:27:21] - Visiting attribute path : title
+[2022-08-13 11:27:21] - Building LoadPlan...
+[2022-08-13 11:27:21] - processing queryspace <gen:0>
+[2022-08-13 11:27:21] - LoadPlan(entity=com.revature.spring.backend.model.Books)
+    - Returns
+       - EntityReturnImpl(entity=com.revature.spring.backend.model.Books, querySpaceUid=<gen:0>, path=com.revature.spring.backend.model.Books)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.revature.spring.backend.model.Books)
+          - SQL table alias mapping - books0_
+          - alias suffix - 0_
+          - suffixed key columns - {item_id1_0_0_}
+
+[2022-08-13 11:27:21] - Static select for entity com.revature.spring.backend.model.Books [NONE]: select books0_.item_id as item_id1_0_0_, books0_.author as author2_0_0_, books0_.category as category3_0_0_, books0_.cost as cost4_0_0_, books0_.stock as stock5_0_0_, books0_.title as title6_0_0_ from books books0_ where books0_.item_id=?
+[2022-08-13 11:27:21] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b84347f

@@ -1,0 +1,149 @@
+[2022-08-13 11:27:21] - No alter strings for table : books
+[2022-08-13 11:27:21] - No alter strings for table : booky
+[2022-08-13 11:27:21] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-08-13 11:27:21] - Checking 0 named HQL queries
+[2022-08-13 11:27:21] - Checking 0 named SQL queries
+[2022-08-13 11:27:21] - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2022-08-13 11:27:21] - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@3a6ac0c7
+[2022-08-13 11:27:21] - Registering SessionFactory: 61bc23a0-ba11-4cca-bc8b-5a0ccf26bc90 (<unnamed>)
+[2022-08-13 11:27:21] - Not binding SessionFactory to JNDI, no JNDI name configured
+[2022-08-13 11:27:21] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'project002Application'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'booksController'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'booksRepository'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'jpaMappingContext'
+[2022-08-13 11:27:21] - Initializing JpaMetamodelMappingContext…
+[2022-08-13 11:27:21] - Finished initializing JpaMetamodelMappingContext!
+[2022-08-13 11:27:21] - Creating new EntityManager for shared EntityManager invocation
+[2022-08-13 11:27:21] - Statistics initialized [enabled=false]
+[2022-08-13 11:27:21] - Creating new EntityManager for shared EntityManager invocation
+[2022-08-13 11:27:21] - Not strongly caching class [com.revature.spring.backend.model.Books] because it is not cache-safe
+[2022-08-13 11:27:21] - Initializing repository instance for com.revature.spring.backend.repository.BooksRepository…
+[2022-08-13 11:27:21] - Creating new EntityManager for shared EntityManager invocation
+[2022-08-13 11:27:21] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e5126cb
+[2022-08-13 11:27:21] - Finished creation of repository instance for com.revature.spring.backend.repository.BooksRepository.
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'bookyController'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'bookyRepository'
+[2022-08-13 11:27:21] - Creating new EntityManager for shared EntityManager invocation
+[2022-08-13 11:27:21] - Not strongly caching class [com.revature.spring.backend.model.Booky] because it is not cache-safe
+[2022-08-13 11:27:21] - Initializing repository instance for com.revature.spring.backend.repository.BookyRepository…
+[2022-08-13 11:27:21] - Creating new EntityManager for shared EntityManager invocation
+[2022-08-13 11:27:21] - Finished creation of repository instance for com.revature.spring.backend.repository.BookyRepository.
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'taskExecutorBuilder'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+[2022-08-13 11:27:21] - Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'error'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'beanNameViewResolver'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[2022-08-13 11:27:21] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71fa46eb'
+[2022-08-13 11:27:21] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'conventionErrorViewResolver'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'errorAttributes'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'basicErrorController'
+[2022-08-13 11:27:21] - Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+[2022-08-13 11:27:21] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2022-08-13 11:27:21] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2022-08-13 11:27:21] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[2022-08-13 11:27:21] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1406c75d'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1406c75d'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptorConfigurer'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptor'
+[2022-08-13 11:27:22] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'openEntityManagerInViewInterceptorConfigurer' via factory method to bean named 'openEntityManagerInViewInterceptor'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'org.springframework.data.web.config.SpringDataWebConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71fa46eb'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'mvcConversionService'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'mvcValidator'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'messageConverters'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'stringHttpMessageConverter'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'jacksonObjectMapper'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71fa46eb'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71fa46eb'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'parameterNamesModule'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'jsonComponentModule'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'jsonMixinModule'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71fa46eb'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'jacksonGeoModule'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'sortResolver'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'sortCustomizer'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration' via constructor to bean named 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'pageableResolver'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'pageableCustomizer'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'applicationTaskExecutor'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+[2022-08-13 11:27:22] - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-08-13 11:27:22] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71fa46eb'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'localeResolver'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'themeResolver'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'flashMapManager'
+[2022-08-13 11:27:22] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7705b91
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2022-08-13 11:27:22] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2022-08-13 11:27:22] - 
+	c.r.s.b.c.BooksController:
+	{DELETE [/books/{id}]}: deleteById(Integer)
+	{GET [/inventory]}: showBooks()
+	{POST [/inventory]}: addBook(Books)
+	{PUT [/inventory/update/{id}]}: updateBooks(Integer,Books)
+[2022-08-13 11:27:22] - 
+	c.r.s.b.c.BookyController:
+	{DELETE [/booky/{id}]}: deleteById(Integer)
+	{GET [/booky]}: getAllBookies()
+	{GET [/booky/{id}]}: getBookyById(Integer)
+	{PUT [/booky/update/{id}]}: updateBooky(Integer,Booky)
+	{POST [/booky]}: addBooky(Booky)
+[2022-08-13 11:27:22] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+[2022-08-13 11:27:22] - 11 mappings in 'requestMappingHandlerMapping'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'mvcPatternParser'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'mvcPathMatcher'
+[2022-08-13 11:27:22] - Creating shared instance of singleton bean 'viewControllerHandlerMapping'

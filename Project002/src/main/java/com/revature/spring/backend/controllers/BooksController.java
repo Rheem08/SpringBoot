@@ -36,14 +36,12 @@ public class BooksController {
 		itemRepo.save(b);
 		
 	}
-	//since its a book, only updates i can think of that would need to persist
-	// would be the cost of the item and how much is in stock
+	
 	@PutMapping("/inventory/update/{id}")
 	public Books updateBooks(@PathVariable Integer id,@RequestBody Books b){
-		//below i am querying to find specific user based on their id
+		
 		Books existingB= itemRepo.findById(id).orElse(null);
-		//save this value and SET new values to persist update
-		//lastly save !
+		
 		existingB.setCost(b.getCost());
 		existingB.setStock(b.getStock());
 		

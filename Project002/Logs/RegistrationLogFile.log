@@ -1,92 +1,33 @@
-[2022-08-12 08:07:22] - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@4ea0fb85
-[2022-08-12 08:07:23] - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@1f54e093
-[2022-08-12 08:07:23] - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@7f24f2c6
-[2022-08-12 08:07:24] - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@673ab77b
-[2022-08-12 08:07:25] - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@2e8f04ca
-[2022-08-12 08:07:25] - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@166729f0
-[2022-08-12 08:07:26] - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@4e8d4b38
-[2022-08-12 08:07:26] - HikariPool-8 - After adding stats (total=10, active=0, idle=10, waiting=0)
-[2022-08-12 08:07:51] - HikariPool-8 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2022-08-12 08:07:51] - HikariPool-8 - Fill pool skipped, pool is at sufficient level.
-[2022-08-12 08:08:21] - HikariPool-8 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2022-08-12 08:08:21] - HikariPool-8 - Fill pool skipped, pool is at sufficient level.
-[2022-08-12 08:08:51] - HikariPool-8 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2022-08-12 08:08:51] - HikariPool-8 - Fill pool skipped, pool is at sufficient level.
-[2022-08-12 08:09:08] - Initializing Servlet 'dispatcherServlet'
-[2022-08-12 08:09:08] - Detected StandardServletMultipartResolver
-[2022-08-12 08:09:08] - Detected AcceptHeaderLocaleResolver
-[2022-08-12 08:09:08] - Detected FixedThemeResolver
-[2022-08-12 08:09:09] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@44628cc3
-[2022-08-12 08:09:09] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@ef2446e
-[2022-08-12 08:09:09] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-[2022-08-12 08:09:09] - Completed initialization in 156 ms
-[2022-08-12 08:09:09] - OPTIONS "/booky", parameters={}
-[2022-08-12 08:09:09] - Mapped to com.revature.spring.backend.controllers.BookyController#addBooky(Booky)
-[2022-08-12 08:09:09] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
-[2022-08-12 08:09:09] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
-[2022-08-12 08:09:09] - Completed 200 OK
-[2022-08-12 08:09:09] - POST "/booky", parameters={}
-[2022-08-12 08:09:09] - Mapped to com.revature.spring.backend.controllers.BookyController#addBooky(Booky)
-[2022-08-12 08:09:09] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
-[2022-08-12 08:09:09] - Read "application/json;charset=UTF-8" to [Booky [id=null, username=jill123, p_word=root, email=J@j, f_name=Jonah, l_name=Hill]]
-[2022-08-12 08:09:09] - jill123
-[2022-08-12 08:09:09] - J@j
-[2022-08-12 08:09:09] - Found thread-bound EntityManager [SessionImpl(2035100257<open>)] for JPA transaction
-[2022-08-12 08:09:09] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
-[2022-08-12 08:09:09] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
-[2022-08-12 08:09:09] - begin
-[2022-08-12 08:09:09] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@71ec0fdd]
-[2022-08-12 08:09:10] - Not strongly caching class [com.revature.spring.backend.model.Booky] because it is not cache-safe
-[2022-08-12 08:09:10] - select nextval ('hibernate_sequence')
-[2022-08-12 08:09:10] - Sequence value obtained: 36
-[2022-08-12 08:09:10] - HHH000387: ResultSet's statement was not registered
-[2022-08-12 08:09:10] - Generated identifier: 36, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
-[2022-08-12 08:09:10] - Initiating transaction commit
-[2022-08-12 08:09:10] - Committing JPA transaction on EntityManager [SessionImpl(2035100257<open>)]
-[2022-08-12 08:09:10] - committing
-[2022-08-12 08:09:10] - Processing flush-time cascades
-[2022-08-12 08:09:10] - Dirty checking collections
-[2022-08-12 08:09:10] - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
-[2022-08-12 08:09:10] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-[2022-08-12 08:09:10] - Listing entities:
-[2022-08-12 08:09:10] - com.revature.spring.backend.model.Booky{l_name=Hill, f_name=Jonah, p_word=root, id=36, email=J@j, username=jill123}
-[2022-08-12 08:09:10] - insert into booky (email, f_name, l_name, p_word, username, id) values (?, ?, ?, ?, ?, ?)
-[2022-08-12 08:09:10] - Not closing pre-bound JPA EntityManager after transaction
-[2022-08-12 08:09:10] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
-[2022-08-12 08:09:10] - Nothing to write: null body
-[2022-08-12 08:09:10] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
-[2022-08-12 08:09:10] - HHH000420: Closing un-released batch
-[2022-08-12 08:09:10] - Completed 200 OK
-[2022-08-12 08:09:21] - HikariPool-8 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2022-08-12 08:09:21] - HikariPool-8 - Fill pool skipped, pool is at sufficient level.
-[2022-08-12 08:09:51] - HikariPool-8 - Pool stats (total=10, active=0, idle=10, waiting=0)
-[2022-08-12 08:09:51] - HikariPool-8 - Fill pool skipped, pool is at sufficient level.
-[2022-08-12 08:10:11] - Application shutdown requested.
-[2022-08-12 08:10:11] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
-[2022-08-12 08:10:11] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@374ab3b2, started on Fri Aug 12 08:07:19 EDT 2022
-[2022-08-12 08:10:11] - Stopping beans in phase 2147483647
-[2022-08-12 08:10:11] - Bean 'webServerGracefulShutdown' completed its stop procedure
-[2022-08-12 08:10:11] - Stopping beans in phase 2147483646
-[2022-08-12 08:10:12] - Bean 'webServerStartStop' completed its stop procedure
-[2022-08-12 08:10:12] - Unregistering JMX-exposed beans on shutdown
-[2022-08-12 08:10:12] - Unregistering JMX-exposed beans
-[2022-08-12 08:10:12] - Shutting down ExecutorService 'applicationTaskExecutor'
-[2022-08-12 08:10:12] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[2022-08-12 08:10:12] - HHH000031: Closing
-[2022-08-12 08:10:12] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@5a45d7ff] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@1f805556]
-[2022-08-12 08:10:12] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
-[2022-08-12 08:10:12] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
-[2022-08-12 08:10:12] - HikariPool-8 - Shutdown initiated...
-[2022-08-12 08:10:12] - HikariPool-8 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
-[2022-08-12 08:10:12] - HikariPool-8 - Closing connection org.postgresql.jdbc.PgConnection@59fc61df: (connection evicted)
-[2022-08-12 08:10:12] - HikariPool-8 - Closing connection org.postgresql.jdbc.PgConnection@15a0fe5: (connection evicted)
-[2022-08-12 08:10:12] - HikariPool-8 - Closing connection org.postgresql.jdbc.PgConnection@f9df1be: (connection evicted)
-[2022-08-12 08:10:12] - HikariPool-8 - Closing connection org.postgresql.jdbc.PgConnection@4ea0fb85: (connection evicted)
-[2022-08-12 08:10:12] - HikariPool-8 - Closing connection org.postgresql.jdbc.PgConnection@1f54e093: (connection evicted)
-[2022-08-12 08:10:12] - HikariPool-8 - Closing connection org.postgresql.jdbc.PgConnection@7f24f2c6: (connection evicted)
-[2022-08-12 08:10:12] - HikariPool-8 - Closing connection org.postgresql.jdbc.PgConnection@673ab77b: (connection evicted)
-[2022-08-12 08:10:12] - HikariPool-8 - Closing connection org.postgresql.jdbc.PgConnection@2e8f04ca: (connection evicted)
-[2022-08-12 08:10:12] - HikariPool-8 - Closing connection org.postgresql.jdbc.PgConnection@166729f0: (connection evicted)
-[2022-08-12 08:10:12] - HikariPool-8 - Closing connection org.postgresql.jdbc.PgConnection@4e8d4b38: (connection evicted)
-[2022-08-12 08:10:12] - HikariPool-8 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
-[2022-08-12 08:10:12] - HikariPool-8 - Shutdown completed.
+[2022-08-13 11:55:20] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-13 11:55:20] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-13 11:55:50] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-13 11:55:50] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-13 11:56:05] - Application shutdown requested.
+[2022-08-13 11:56:05] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2022-08-13 11:56:05] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71fa46eb, started on Sat Aug 13 11:27:15 EDT 2022
+[2022-08-13 11:56:05] - Stopping beans in phase 2147483647
+[2022-08-13 11:56:06] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2022-08-13 11:56:06] - Stopping beans in phase 2147483646
+[2022-08-13 11:56:06] - Bean 'webServerStartStop' completed its stop procedure
+[2022-08-13 11:56:06] - Unregistering JMX-exposed beans on shutdown
+[2022-08-13 11:56:06] - Unregistering JMX-exposed beans
+[2022-08-13 11:56:06] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-13 11:56:06] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-13 11:56:06] - HHH000031: Closing
+[2022-08-13 11:56:06] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@4100c8dd] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@3c96d47c]
+[2022-08-13 11:56:06] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2022-08-13 11:56:06] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2022-08-13 11:56:06] - HikariPool-1 - Shutdown initiated...
+[2022-08-13 11:56:06] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@37b4f881: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2ea94081: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@b84347f: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@e5126cb: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7705b91: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@8aad31e: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@d83ad49: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@626faa6: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@46327beb: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@11b11beb: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2022-08-13 11:56:06] - HikariPool-1 - Shutdown completed.

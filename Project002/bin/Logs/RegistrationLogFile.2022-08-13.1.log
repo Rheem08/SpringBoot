@@ -1,0 +1,96 @@
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'multipartConfigElement'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+[2022-08-13 11:27:17] - Code archive: C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot\2.7.2\spring-boot-2.7.2.jar
+[2022-08-13 11:27:17] - Code archive: C:\Users\rahee\.m2\repository\org\springframework\boot\spring-boot\2.7.2\spring-boot-2.7.2.jar
+[2022-08-13 11:27:17] - Document root: C:\BootCamp\SpringBack\Project002\src\main\webapp
+[2022-08-13 11:27:17] - Tomcat initialized with port(s): 2022 (http)
+[2022-08-13 11:27:17] - Initializing ProtocolHandler ["http-nio-2022"]
+[2022-08-13 11:27:17] - Starting service [Tomcat]
+[2022-08-13 11:27:17] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2022-08-13 11:27:17] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2022-08-13 11:27:17] - Initializing Spring embedded WebApplicationContext
+[2022-08-13 11:27:17] - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-08-13 11:27:17] - Root WebApplicationContext: initialization completed in 2399 ms
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'requestContextFilter'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'formContentFilter'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'characterEncodingFilter'
+[2022-08-13 11:27:18] - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+[2022-08-13 11:27:18] - Mapping servlets: dispatcherServlet urls=[/]
+[2022-08-13 11:27:18] - Filter 'requestContextFilter' configured for use
+[2022-08-13 11:27:18] - Filter 'characterEncodingFilter' configured for use
+[2022-08-13 11:27:18] - Filter 'formContentFilter' configured for use
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'dataSource'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2022-08-13 11:27:18] - Found key 'D_PASS' in PropertySource 'systemEnvironment' with value of type String
+[2022-08-13 11:27:18] - Found key 'D_URL' in PropertySource 'systemEnvironment' with value of type String
+[2022-08-13 11:27:18] - Found key 'D_NAME' in PropertySource 'systemEnvironment' with value of type String
+[2022-08-13 11:27:18] - Found key 'D_USER' in PropertySource 'systemEnvironment' with value of type String
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2022-08-13 11:27:18] - Driver class org.postgresql.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3d6838a7
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'inMemoryDatabaseShutdownExecutor'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration'
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'inMemoryDatabaseShutdownExecutor' via factory method to bean named 'dataSource'
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'inMemoryDatabaseShutdownExecutor' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'entityManagerFactory'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1406c75d'
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+[2022-08-13 11:27:18] - Creating shared instance of singleton bean 'jpaVendorAdapter'
+[2022-08-13 11:27:18] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+[2022-08-13 11:27:18] - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+[2022-08-13 11:27:18] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2022-08-13 11:27:18] - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3d6838a7
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/BootCamp/SpringBack/Project002/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.revature.spring.backend.model.Books
+		com.revature.spring.backend.model.Booky]
+	Mapping files names []
+	Properties []
+[2022-08-13 11:27:18] - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2022-08-13 11:27:18] - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2022-08-13 11:27:18] - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2022-08-13 11:27:18] - HHH000412: Hibernate ORM core version 5.6.10.Final
+[2022-08-13 11:27:18] - HHH000206: hibernate.properties not found
+[2022-08-13 11:27:18] - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2022-08-13 11:27:18] - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[2022-08-13 11:27:18] - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[2022-08-13 11:27:18] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-08-13 11:27:18] - Adding type registration boolean -> org.hibernate.type.BooleanType@2c7dee52
+[2022-08-13 11:27:18] - Adding type registration boolean -> org.hibernate.type.BooleanType@2c7dee52
+[2022-08-13 11:27:18] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@2c7dee52
+[2022-08-13 11:27:18] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1aaa0157
+[2022-08-13 11:27:18] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@22ef7d7e
+[2022-08-13 11:27:18] - Adding type registration yes_no -> org.hibernate.type.YesNoType@972108e
+[2022-08-13 11:27:18] - Adding type registration byte -> org.hibernate.type.ByteType@493fe36
+[2022-08-13 11:27:18] - Adding type registration byte -> org.hibernate.type.ByteType@493fe36
+[2022-08-13 11:27:18] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@493fe36
+[2022-08-13 11:27:18] - Adding type registration character -> org.hibernate.type.CharacterType@14b3497a

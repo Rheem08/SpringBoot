@@ -1,0 +1,33 @@
+[2022-08-13 11:55:20] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-13 11:55:20] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-13 11:55:50] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-13 11:55:50] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-08-13 11:56:05] - Application shutdown requested.
+[2022-08-13 11:56:05] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2022-08-13 11:56:05] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71fa46eb, started on Sat Aug 13 11:27:15 EDT 2022
+[2022-08-13 11:56:05] - Stopping beans in phase 2147483647
+[2022-08-13 11:56:06] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2022-08-13 11:56:06] - Stopping beans in phase 2147483646
+[2022-08-13 11:56:06] - Bean 'webServerStartStop' completed its stop procedure
+[2022-08-13 11:56:06] - Unregistering JMX-exposed beans on shutdown
+[2022-08-13 11:56:06] - Unregistering JMX-exposed beans
+[2022-08-13 11:56:06] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-13 11:56:06] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-13 11:56:06] - HHH000031: Closing
+[2022-08-13 11:56:06] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@4100c8dd] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@3c96d47c]
+[2022-08-13 11:56:06] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2022-08-13 11:56:06] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2022-08-13 11:56:06] - HikariPool-1 - Shutdown initiated...
+[2022-08-13 11:56:06] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@37b4f881: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2ea94081: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@b84347f: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@e5126cb: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7705b91: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@8aad31e: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@d83ad49: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@626faa6: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@46327beb: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@11b11beb: (connection evicted)
+[2022-08-13 11:56:06] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2022-08-13 11:56:06] - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,80 @@
+[2022-08-13 11:27:14] - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3d6838a7
+[2022-08-13 11:27:15] - Starting Project002Application using Java 17.0.3 on Raheen with PID 10008 (C:\BootCamp\SpringBack\Project002\target\classes started by rahee in C:\BootCamp\SpringBack\Project002)
+[2022-08-13 11:27:15] - Running with Spring Boot v2.7.2, Spring v5.3.22
+[2022-08-13 11:27:15] - No active profile set, falling back to 1 default profile: "default"
+[2022-08-13 11:27:15] - Loading source class com.revature.spring.backend.Project002Application
+[2022-08-13 11:27:15] - Matching URLs for reloading : [file:/C:/BootCamp/SpringBack/Project002/target/classes/]
+[2022-08-13 11:27:15] - Included patterns for restart : []
+[2022-08-13 11:27:15] - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
+[2022-08-13 11:27:15] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-08-13 11:27:15] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-08-13 11:27:15] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71fa46eb
+[2022-08-13 11:27:15] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-08-13 11:27:15] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2022-08-13 11:27:15] - Identified candidate component class: file [C:\BootCamp\SpringBack\Project002\target\classes\com\revature\spring\backend\controllers\BooksController.class]
+[2022-08-13 11:27:15] - Identified candidate component class: file [C:\BootCamp\SpringBack\Project002\target\classes\com\revature\spring\backend\controllers\BookyController.class]
+[2022-08-13 11:27:16] - Found key 'D_URL' in PropertySource 'systemEnvironment' with value of type String
+[2022-08-13 11:27:16] - Found key 'D_NAME' in PropertySource 'systemEnvironment' with value of type String
+[2022-08-13 11:27:16] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2022-08-13 11:27:16] - @EnableAutoConfiguration was declared on a class in the package 'com.revature.spring.backend'. Automatic @Repository and @Entity scanning is enabled.
+[2022-08-13 11:27:16] - Scanning for JPA repositories in packages com.revature.spring.backend.
+[2022-08-13 11:27:16] - Identified candidate component class: file [C:\BootCamp\SpringBack\Project002\target\classes\com\revature\spring\backend\repository\BooksRepository.class]
+[2022-08-13 11:27:16] - Identified candidate component class: file [C:\BootCamp\SpringBack\Project002\target\classes\com\revature\spring\backend\repository\BookyRepository.class]
+[2022-08-13 11:27:16] - Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DatabaseShutdownExecutorEntityManagerFactoryDependsOnPostProcessor'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[2022-08-13 11:27:16] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'transactionAttributeSource'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'transactionInterceptor'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+[2022-08-13 11:27:17] - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@38b8e8e7]
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'errorPageCustomizer'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'dispatcherServlet'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+[2022-08-13 11:27:17] - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2022-08-13 11:27:17] - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'

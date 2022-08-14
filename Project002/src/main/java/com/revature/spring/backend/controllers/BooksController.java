@@ -30,10 +30,10 @@ public class BooksController {
 	}
 	
 	@PostMapping("/inventory")
-	public void addBook(@RequestBody Books b) {
+	public void addBook(@RequestBody Books c) {
 		
 		//test save
-		itemRepo.save(b);
+		itemRepo.save(c);
 		
 	}
 	

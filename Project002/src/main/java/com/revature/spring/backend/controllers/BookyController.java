@@ -29,8 +29,8 @@ public class BookyController {
 	
 	@PostMapping("/booky") //where to send form when creating new object
 	public void addBooky(@RequestBody Booky b) { //use of postman
-		logger.info(b.getUsername());
-		logger.info(b.getEmail());
+//		logger.info(b.getUsername());
+//		logger.info(b.getEmail());
 		bRepo.save(b); //save object of booky into database/repository
 	}
 	

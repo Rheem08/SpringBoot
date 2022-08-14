@@ -13,37 +13,33 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.revature.spring.backend.model.Order;
+import com.revature.spring.backend.model.Orders;
+//import com.revature.spring.backend.model.Order;
 import com.revature.spring.backend.repository.OrderRepository;
 
-@RestController("/order")
-@CrossOrigin(origins="http://localhost:4200/")
+@RestController
+@CrossOrigin
 public class OrderConroller {
-	
-	private OrderRepository or;
-
 	@Autowired
-	public OrderConroller(OrderRepository or) {
-		super();
-		this.or = or;
-	}
+	private OrderRepository or;
 	
-	@GetMapping
-	public ResponseEntity<List<Order>> getAllOrders(){
-		List<Order> list = or.findAll();
-		return new ResponseEntity<>(list,HttpStatus.OK);
+	@GetMapping("/order")
+//	public List<Order> getAllOrders(){
+	public List<Orders> getAllOrders(){
+		//List<Order> list = or.findAll();
+		return or.findAll();
 		}
 	
-	@GetMapping("/{id}")
-	public ResponseEntity<Optional<Order>> getOrderById(@PathVariable int id){
-		Optional<Order> order = or.findById(id);
-		return new ResponseEntity<>(order,HttpStatus.OK);
-	}
-	
-	@PostMapping("/add")
-	public ResponseEntity<Order> postOrder(@RequestBody Order order){
-		Order o = or.save(order);
-		return new ResponseEntity<>(o,HttpStatus.CREATED);
+//	@GetMapping("/{id}")
+//	public ResponseEntity<Optional<Order>> getOrderById(@PathVariable int id){
+//		Optional<Order> order = or.findById(id);
+//		return new ResponseEntity<>(order,HttpStatus.OK);
+//	}
+//	
+	@PostMapping("/order")
+	//public void postOrder(@RequestBody Order order)
+	public void postOrder(@RequestBody Orders order){
+		or.save(order);
 		
 	}
 	
